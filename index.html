@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Strona z licznikiem i filmem w tle</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="video-background">
+        <div class="video-foreground">
+            <iframe src="https://www.youtube.com/embed/YOUR_VIDEO_ID?autoplay=1&mute=1&loop=1&playlist=YOUR_VIDEO_ID" frameborder="0" allowfullscreen></iframe>
+        </div>
+    </div>
+    <div class="content">
+        <div id="countdown"></div>
+    </div>
+    <audio id="background-music" loop>
+        <source src="https://www.youtube.com/embed/YOUR_MUSIC_ID" type="audio/mp3">
+    </audio>
+    <script src="script.js"></script>
+</body>
+</html>
