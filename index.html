@@ -9,15 +9,18 @@
 <body>
     <div class="video-background">
         <div class="video-foreground">
-            <iframe src="https://www.youtube.com/embed/-00PZ3FaHV4?autoplay=1&loop=1&playlist=-00PZ3FaHV4" frameborder="0" allowfullscreen></iframe>
+            <!-- Zmień YOUR_VIDEO_ID na identyfikator filmu z YouTube, który chcesz wyświetlać w tle -->
+            <iframe src="https://www.youtube.com/embed/YOUR_VIDEO_ID?autoplay=1&mute=1&loop=1&playlist=YOUR_VIDEO_ID" frameborder="0" allowfullscreen></iframe>
         </div>
     </div>
     <div class="content">
         <div id="countdown"></div>
     </div>
-    <audio id="background-music" loop>
-        <source src="https://www.youtube.com/embed/RbHr0T_geVE" type="audio/mp3">
-    </audio>
+    <!-- Osadzony film z YouTube, aby odtwarzać muzykę w tle -->
+    <div class="hidden-audio">
+        <!-- Zmień YOUR_MUSIC_ID na identyfikator muzyki z YouTube, którą chcesz odtwarzać w tle -->
+        <iframe id="audio-frame" src="https://www.youtube.com/embed/YOUR_MUSIC_ID?autoplay=1&loop=1&playlist=YOUR_MUSIC_ID" frameborder="0" allow="autoplay"></iframe>
+    </div>
     <script src="script.js"></script>
 </body>
 </html>
