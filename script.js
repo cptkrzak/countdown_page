@@ -1,6 +1,6 @@
 // Data końcowa
 var countDownDate = new Date();
-countDownDate.setDate(countDownDate.getDate() + 3);
+countDownDate.setDate(countDownDate.getDate() + 2);
 countDownDate.setHours(countDownDate.getHours() + 17);
 countDownDate.setMinutes(countDownDate.getMinutes() + 9);
 countDownDate.setSeconds(countDownDate.getSeconds() + 50);
@@ -23,6 +23,3 @@ var countdownFunction = setInterval(function() {
         document.getElementById("countdown").innerHTML = "KONIEC";
     }
 }, 1000);
-
-// Odtwarzanie muzyki
-document.getElementById('background-music').play();
